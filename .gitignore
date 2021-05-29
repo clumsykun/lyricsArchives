@@ -1,0 +1,11 @@
+*.html
+*.toc
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.pdf
+*.gz
+*.synctex(busy)
+*.gnuplot
+.vscode/*

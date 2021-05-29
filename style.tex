@@ -1,0 +1,40 @@
+\usepackage{newtxmath}                % 数学字体
+\usepackage{geometry}                 % 页边距
+\usepackage{booktabs}                 % 表格装饰
+\usepackage{float}                    % 固定表格
+\usepackage{pgfplots}                 % 画图
+\usepackage{fontspec}
+\usepackage{enumitem}                 % 列表间距
+\usepackage{titlesec}
+
+% ==============================
+% Page Configure
+% ==============================
+\geometry{  % page size
+    a4paper,
+    left=4.2cm,
+    right=4.2cm,
+    top=3cm,
+    bottom=3cm
+}
+\setlength{\parindent}{0pt} % no indent
+\setlength{\parskip}{6pt}   % set paragraph gap
+\linespread{1.48}           % set line gap
+
+\setenumerate[1]{itemsep=0pt,partopsep=0pt,parsep=0pt,topsep=5pt}
+% \titleformat{\section}[block]{\bfseries\filcenter}{}{1em}{}
+
+% ==============================
+% Font configure
+% ==============================
+\setmainfont{Times New Roman}
+% \setCJKmainfont{方正书宋简体}
+
+
+% ==============================
+% Symbol
+% ==============================
+\newcommand{\club}{\ding{168}}                                      % club
+\renewcommand{\diamond}{\ding{169}}                                 % diamond
+\newcommand{\heart}{\ding{170}}                                     % heart
+\newcommand{\spade}{\ding{171}}                                     % spade
